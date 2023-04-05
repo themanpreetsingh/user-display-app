@@ -11,7 +11,6 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent {
   firestore: Firestore = inject(Firestore);
-  title = 'user-display-app';
   users: Observable<any[]>;
 
   constructor() {

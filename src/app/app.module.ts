@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserContainerComponent } from './components/user-container/user-container.component';
-import { DisableButtonComponent } from './components/disable-button/disable-button.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatCardModule} from '@angular/material/card'; 
@@ -17,8 +16,7 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 @NgModule({
   declarations: [
     AppComponent,
-    UserContainerComponent,
-    DisableButtonComponent
+    UserContainerComponent
   ],
   imports: [
     BrowserModule,
