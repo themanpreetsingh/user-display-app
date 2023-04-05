@@ -1,0 +1,13 @@
+/* .user-container {
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 50%;
+    margin: 1rem auto;
+} */
+
+.user-container {
+    /* color: white; */
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
