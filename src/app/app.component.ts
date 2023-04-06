@@ -1,7 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { Firestore } from '@angular/fire/firestore';
-import { collection } from '@firebase/firestore';
-import { collectionData } from 'rxfire/firestore';
+import { Firestore, collection, collectionData } from '@angular/fire/firestore';
 import { Observable } from 'rxjs';
 
 @Component({

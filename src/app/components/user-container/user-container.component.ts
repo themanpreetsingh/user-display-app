@@ -1,4 +1,3 @@
-import { BooleanInput } from '@angular/cdk/coercion';
 import { Component, Input } from '@angular/core';
 
 @Component({
